@@ -1,0 +1,29 @@
+{
+  "name": "bot-discord-svenska",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node main.js",
+    "dev": "nodemon main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Khreight/bot-discord-Svenska.git"
+  },
+  "author": "Khreight",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Khreight/bot-discord-Svenska/issues"
+  },
+  "homepage": "https://github.com/Khreight/bot-discord-Svenska#readme",
+  "dependencies": {
+    "@discordjs/rest": "^1.7.1",
+    "discord.js": "^14.15.3",
+    "fs": "^0.0.1-security",
+    "mysql2": "^3.11.0",
+    "node-cron": "^3.0.3",
+    "nodemon": "^3.1.4"
+  }
+}
